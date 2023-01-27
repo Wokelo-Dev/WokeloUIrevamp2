@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px) {
+  .main .right_login_img > img {
+    margin-top: 3.5em;
+  }
+
+  .form_footer > p {
+    margin-top: 1em;
+  }
+   
+  .left{
+    width: 80%;
+  }
+  
+}
+
+@media screen and (max-width: 768px){
+.left{
+    width: 97%;
+  }
+  .right_login_img{
+    display: none;
+  }
+  .hello{
+    font-size: 40px;
+  }
+  .welcome{
+    font-size: 40px;
+  }
+  .p_login{
+    font-size: 20px;
+  }
+  .username{
+    font-size: 18px;
+  }
+  .password{
+    font-size: 18px;
+  }
+  .form_footer{
+    font-size: 15px;
+  }
+  .submit{
+    font-size: 15px;
+  }
+  
+  .overall{
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form_footer > p {
+    margin-top: 3em;
+  }
+ 
+  /* .overall{
+    padding: 55px;
+  } */
+}
